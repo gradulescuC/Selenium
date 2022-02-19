@@ -32,7 +32,6 @@ public class CleanCode {
         drv.findElement(By.cssSelector("option[value='1']")).click();
         drv.findElement(By.id("datepicker")).sendKeys("05/28/2019");
         drv.findElement(By.id("datepicker")).sendKeys(Keys.RETURN);
-        // drv.findElement(By.cssSelector(".btn.btn-lg.btn-primary")).click();
         drv.findElement(By.cssSelector("a[class='btn btn-lg btn-primary']")).click();
     }
 
